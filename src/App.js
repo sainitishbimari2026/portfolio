@@ -1,18 +1,22 @@
 import React from 'react';
 import About from './components/About';
-import Projects from './components/Projects';
-import Journey from './components/Journey';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Certifications from './components/Certifications';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900">
-      <Navbar />
-      <main className="max-w-6xl mx-auto p-4">
+    <div className="min-h-screen bg-gray-50 text-gray-900 px-4 py-12">
+      <main className="max-w-7xl mx-auto">
         <About />
-        <Projects />
-        <Journey />
+        <Skills />
+        <Experience />
+        <Education />
+        <Certifications />
+        <Portfolio />
         <Contact />
       </main>
     </div>
