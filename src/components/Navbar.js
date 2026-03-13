@@ -2,14 +2,17 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow p-4 mb-8 fixed w-full z-10">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="font-bold text-xl">My Portfolio</div>
-        <div className="space-x-4">
-          <a href="#about" className="text-gray-700 hover:text-blue-600">About</a>
-          <a href="#projects" className="text-gray-700 hover:text-blue-600">Projects</a>
-          <a href="#journey" className="text-gray-700 hover:text-blue-600">Journey</a>
-          <a href="#contact" className="text-gray-700 hover:text-blue-600">Contact</a>
+    <nav className="fixed top-0 left-0 right-0 bg-gray-900 text-white shadow-lg z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
+        <div className="text-2xl font-bold text-purple-400 cursor-pointer">Sai Nitish</div>
+        <div className="space-x-8 hidden md:flex">
+          <a href="#about" className="hover:text-purple-500 transition">About</a>
+          <a href="#skills" className="hover:text-purple-500 transition">Skills</a>
+          <a href="#experience" className="hover:text-purple-500 transition">Experience</a>
+          <a href="#education" className="hover:text-purple-500 transition">Education</a>
+          <a href="#certifications" className="hover:text-purple-500 transition">Certifications</a>
+          <a href="#portfolio" className="hover:text-purple-500 transition">Projects</a>
+          <a href="#contact" className="hover:text-purple-500 transition">Contact</a>
         </div>
       </div>
     </nav>
